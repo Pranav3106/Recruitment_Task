@@ -40,7 +40,7 @@ const CharacterList = () => {
                 <div className="flex flex-col md:flex-row mt-5 gap-5">
                     <div>
                         {charactersToShow.length > 0 ? (
-                            <ul className="w-100 border border-gray-300 list-none p-0 m-0">
+                            <ul className="w-full lg:w-100 border border-gray-300 list-none p-0 m-0">
                                 {charactersToShow.map((character) => (
                                     <li
                                         key={character.id}

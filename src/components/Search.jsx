@@ -14,7 +14,7 @@ const Search = ({ searchParam, setSearchParam }) => {
     }
 
     return (
-        <div className="flex items-center w-100 px-3 py-2 border border-gray-300 rounded-full bg-white">
+        <div className="flex items-center w-full lg:w-100 px-3 py-2 border border-gray-300 rounded-full bg-white">
             <FaSearch className="text-gray-600 text-lg mr-2" />
             <input
                 value={searchParam.get("name") || ""}
