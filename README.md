@@ -1,6 +1,7 @@
 # Recruitment Task – Front-End Developer
 
-This app provides search filters to find characters by name, a detailed view of each character showing status, gender, species, and associated episodes, as well as a detailed view for each episode.
+- This app provides search filters to find characters by name, a detailed view of each character showing status, gender, species, and associated episodes, as well as a detailed view for each episode.
+- This app is done using React + JavaScript (ES6+)
 
 ---
 
