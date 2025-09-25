@@ -1,16 +1,47 @@
-# React + Vite
+# Recruitment Task – Front-End Developer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This app provides search filters to find characters by name, a detailed view of each character showing status, gender, species, and associated episodes, as well as a detailed view for each episode.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Getting Started
 
-## React Compiler
+Follow the instructions below to set up the project on your local machine for development and testing purposes.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📋 Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Make sure you have the following installed on your machine:
+
+- [Node.js](https://nodejs.org/)  
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+---
+
+## ⚙️ Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Pranav3106/Recruitment_Task.git
+
+2. **Install dependencies**
+    ```bash
+    npm install
+
+3. **Start the development server**
+    ```bash
+   npm run dev
+
+These steps will launch the project in your browser.
+
+## Assumtions
+- Front-end styling is not a major priority; the focus is on functionality and data display.
+- The API always returns valid and complete data for characters and episodes.
+- Search filters are case-insensitive and only apply to character names.
+- Each character and episode has a unique URL for detailed views.
+- The app is primarily intended for desktop
+
+## Improvements if I had more time
+- Improve styling and layout for better tablet and mobile responsiveness.
+- Enhance the UI/UX with more visually appealing components and animations.
